@@ -25,10 +25,12 @@ header {
     /* position: fixed; */
     width: 1440px;
     /* height: 80px; */
-    /* border-bottom: 1px solid #00000026; */
-    
-    
-
+    border-bottom: 1px solid #00000026;
+    border-radius: 0px 0px 80px 80px;
+    background: #333;
+    /* top: 0%; */
+    /* z-index: 10; */
+    box-shadow: rgba(0, 0, 0, 0.3) 2.72076px 8px 24px;
 
     /* backdrop-filter: blur(20px); */
 }
@@ -37,15 +39,10 @@ header .nav {
     width: 1400px;
     margin: 0 auto;
     max-width: 100%;
-    background: #333;
-    border-radius: 0px 0px 80px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 3%;
-    top: 0%;
-    z-index: 10;
-    box-shadow: rgba(0, 0, 0, 0.3) 2.72076px ;
     /* border: 1px solid red; */
 }
 
@@ -55,7 +52,7 @@ header .nav ul {
 }
 
 header .nav ul li {
-    margin: 5px 15px;
+    margin: 15px;
     letter-spacing: 1px;
 }
 
@@ -117,6 +114,8 @@ header .text-logo{
     background-color: #3d3d3d;
     /* border: 1px solid white; */
     padding: 110px 0;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 2.72076px 8px 24px;
 }
 
 /* ================================ */
@@ -125,16 +124,11 @@ header .text-logo{
 
 /*  @############ LEFT ############@ */
 
-section.body .left{
-    margin-left: -72px;
-}
-
 section.body .search{
     width: 330px;
+    /* height: 315px; */
     background-color: #565656;
     border-radius: 0 20px 20px 0;
-    position: relative;
-    left: 0;
 }
 
 .body .search store-note{
@@ -150,6 +144,7 @@ section.body .search{
 
 .body .search .shopping-function p{
     text-align: center;
+    font-weight: 400;
 }
 
 .body .search .shopping-function button.icon-shopping{
@@ -182,16 +177,10 @@ section.body .search{
     border-radius: 20px;
     border: none;
     background-color: #D9D9D9;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 /*  @############ RIGHT ############@ */
-
-.body .right .store h1{
-    color: white;
-    text-align: center;
-    font-size: 50px;
-}
 
 /* =========================
         #FOOTER

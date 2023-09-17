@@ -55,7 +55,7 @@ header .nav ul {
 }
 
 header .nav ul li {
-    margin: 5px 15px;
+    margin: 15px;
     letter-spacing: 1px;
 }
 
@@ -126,7 +126,7 @@ header .text-logo{
 /*  @############ LEFT ############@ */
 
 section.body .left{
-    margin-left: -72px;
+    float: left;
 }
 
 section.body .search{
