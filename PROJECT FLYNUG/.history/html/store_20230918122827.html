@@ -88,7 +88,7 @@
                 </div>
                 <div class="col col-md-9 right">
                     <div class="store">
-                        <!-- <h1>Cửa hàng</h1> -->
+                        <h1>Cửa hàng</h1>
                         <div class="item-store">
                             <div class="row">
                                 <div class="col col-md-4">
@@ -338,7 +338,7 @@
                         </div>
                         <div class="left-side">
                             <div class="pagination">
-                                <button class="btn1" onclick="backBtn()">
+                                <button class="btn1">
                                     <i class="fa-solid fa-location-arrow"></i>
                                 </button>
                                 <ul>
@@ -348,7 +348,7 @@
                                     <li class="link" value="4" onclick="activeLink()">4</li>
                                     <li class="link" value="5" onclick="activeLink()">5</li>
                                 </ul>
-                                <button class="btn2" onclick="nextBtn()">
+                                <button class="btn2">
                                     <i class="fa-solid fa-location-arrow"></i>
                                 </button>
                             </div>
@@ -405,7 +405,7 @@
 
 
     <script>
-        let link = document.getElementsByClassName("link");
+        let link = document.getElementById("link");
 
         let currentValue = 1;
 
@@ -417,25 +417,6 @@
             currentValue = event.target.value;
         }
 
-        function backBtn(){
-            if(currentValue > 1){
-                for(l of link){
-                    l.classList.remove("active");
-                }
-                currentValue--;
-                link[currentValue-1].classList.add("active");
-            }
-        }
-
-        function nextBtn(){
-            if(currentValue < 5){
-                for(l of link){
-                    l.classList.remove("active");
-                }
-                currentValue++;
-                link[currentValue-1].classList.add("active");
-            }
-        }
     </script>
 </body>
 

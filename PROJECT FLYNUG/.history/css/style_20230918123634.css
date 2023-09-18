@@ -195,7 +195,13 @@ section.body .search{
     text-align: center;
     font-size: 50px;
     margin-bottom: 50px;
-    user-select: none!important;
+    /* -moz-user-select: none !important; */
+/* -webkit-touch-callout: none!important; */
+/* -webkit-user-select: none!important; */
+-khtml-user-select: none!important;
+-moz-user-select: none!important;
+-ms-user-select: none!important;
+user-select: none!important;
 }
 
 .body .right .store .item-card{
@@ -297,12 +303,12 @@ section.body .search{
     font-size: 20px;
     font-weight: 500;
     line-height: 45px;
-    user-select: none!important;
+    cursor: pointer;
 }
 
 .body .right .store .pagination ul li:hover{
     rotate: 15deg;
-    
+
 }
 
 .body .right .store .pagination .btn2{

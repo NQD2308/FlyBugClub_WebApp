@@ -195,7 +195,6 @@ section.body .search{
     text-align: center;
     font-size: 50px;
     margin-bottom: 50px;
-    user-select: none!important;
 }
 
 .body .right .store .item-card{
@@ -267,12 +266,6 @@ section.body .search{
 
 }
 
-.body .right .store .left-side{
-    display: flex;
-    float: right;
-    margin-bottom: 30px;
-}
-
 .body .right .store .pagination{
     display: flex;
     align-items: center;
@@ -289,7 +282,7 @@ section.body .search{
 .body .right .store .pagination ul li{
     display: inline-block;
     margin: 0 10px;
-    /* background-color: #D9D9D9; */
+    background-color: #D9D9D9;
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -297,12 +290,7 @@ section.body .search{
     font-size: 20px;
     font-weight: 500;
     line-height: 45px;
-    user-select: none!important;
-}
-
-.body .right .store .pagination ul li:hover{
-    rotate: 15deg;
-    
+    cursor: pointer;
 }
 
 .body .right .store .pagination .btn2{
@@ -325,6 +313,8 @@ section.body .search{
 
 .body .right .store .pagination .btn1 i,
 .body .right .store .pagination .btn2 i{
+    /* width: 45px;
+    height: 45px; */
     display: inline-flex;
     align-items: center;
     font-size: 35px;
@@ -332,10 +322,10 @@ section.body .search{
     color: white;
 }
 
-.body .right .store .pagination ul li.active{
-    color: #012A4A;
-    background-color: #D9D9D9;
-    /* background-image: #012a4a ; */
+.body .right .store .pagination .btn1 i.active,
+.body .right .store .pagination .btn2 i.active{
+    color: white;
+    background-image: #012a4a;
     background-repeat: no-repeat;
 }
 

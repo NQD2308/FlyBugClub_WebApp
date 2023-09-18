@@ -297,7 +297,7 @@ section.body .search{
     font-size: 20px;
     font-weight: 500;
     line-height: 45px;
-    user-select: none!important;
+    ser-select: none!important;
 }
 
 .body .right .store .pagination ul li:hover{
