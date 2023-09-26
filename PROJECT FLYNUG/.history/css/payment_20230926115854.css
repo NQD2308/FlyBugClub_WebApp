@@ -1,0 +1,67 @@
+/* ================================ */
+/* ============= BODY ============= */
+/* ================================ */
+
+section.payment *{
+    color: white;
+}
+
+/*  @############ TABLE ############@ */
+
+form{
+    border-radius: 20px;
+    border: 1px solid #FFF;
+}
+
+table.payment{
+    width: 100%;
+    border-radius: 20px;
+    background: #3D3D3D;
+}
+
+table.payment thead tr{
+    height: 60px;
+}
+
+table.payment thead tr th{
+    border-bottom: 1px solid white;
+    background-color: #565656;
+    text-align: center;
+}
+
+table.payment thead tr th.first{
+    border-top-left-radius: 20px;
+}
+
+table.payment thead tr th.last{
+    border-top-right-radius: 20px;
+}
+
+table.payment tbody tr{
+    height: 150px;
+    border-top: 1px solid white;
+}
+
+table.payment tbody td.image{
+    border: none;
+}
+
+table.payment tbody tr td{
+    text-align: center;
+}
+
+table.payment tbody td.image img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+table.payment tbody tr td .qty{
+    
+    background-color: #565656;
+}

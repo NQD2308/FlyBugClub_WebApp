@@ -1,0 +1,162 @@
+/* ================================ */
+/* ============= BODY ============= */
+/* ================================ */
+
+section.payment *{
+    color: white;
+}
+
+/*  @############ TABLE ############@ */
+
+form.shopping-table{
+    border-radius: 20px;
+    border: 1px solid #FFF;
+}
+
+table.payment{
+    width: 100%;
+    border-radius: 20px;
+    background: #3D3D3D;
+}
+
+table.payment thead tr{
+    height: 60px;
+}
+
+table.payment thead tr th{
+    border-bottom: 1px solid white;
+    background-color: #666666;
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+table.payment thead tr th.first{
+    border-top-left-radius: 20px;
+    border-right: 1px solid white;
+}
+
+table.payment thead tr th.last{
+    border-top-right-radius: 20px;
+    border: none;
+}
+
+table.payment tbody tr{
+    height: 150px;
+    /* background-color: #565656; */
+    border-top: 1px solid white;
+}
+
+table.payment tbody tr td{
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+table.payment tbody td.image{
+    border-right: 1px solid white;
+}
+
+table.payment tbody td.item-name{
+    margin: 0 20px;
+}
+
+table.payment tbody td.subtotal{
+    border-right: none;
+}
+
+table.payment tbody td.image img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+table.payment tbody tr td .qty{
+    height: 30px;
+    margin: 0 20px;
+    background-color: #565656;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+table.payment tbody tr td .qty button{
+    background-color: transparent;
+    border: none;
+}
+
+table.payment tbody tr td .qty button.plus{
+    margin-right: 10px;
+}
+
+table.payment tbody tr td .qty button.minus{
+    margin-left: 10px;
+}
+
+table.payment tbody tr td .qty p{
+    margin: auto 0;
+    padding: 0 5px;
+}
+
+/*  @############ INFO TABLE ############@ */
+
+form.get-info-form{
+    width: 450px;
+    background-color: #565656;
+    border-radius: 20px;
+    padding-bottom: 0.2%;
+}
+
+form.get-info-form h5{
+    padding: 20px 0 0 20px;
+    text-align: center;
+}
+
+form.get-info-form table{
+    height: 250px; 
+    margin: 20px;
+}
+
+form.get-info-form table th{
+    width: 150px;
+}
+
+form.get-info-form input{
+    color: #012a4a;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+    background: rgba(255, 255, 255, 0.80);
+    display: flex;
+    float: right;
+}
+
+form.get-info-form th.btn-order button{
+    color: white;
+    background-color: #012a4a;
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+form.get-info-form button a{
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 500;
+    padding: 0 20px;
+    border-radius: 20px;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+form.get-info-form button a:hover{
+    background: linear-gradient(180deg, #EFA02A 0%, rgba(239, 160, 42, 0.24) 79.69%, rgba(239, 160, 42, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.25s ease;
+}

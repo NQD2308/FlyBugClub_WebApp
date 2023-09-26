@@ -1,0 +1,14 @@
+/* ================================ */
+/* ============= BODY ============= */
+/* ================================ */
+
+/*  @############ TABLE ############@ */
+table.payment{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+table.payment tr, td,th{
+    border: 1px solid white;
+    border-radius: 20px;
+}

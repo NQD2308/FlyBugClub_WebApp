@@ -1,0 +1,48 @@
+/* ================================ */
+/* ============= BODY ============= */
+/* ================================ */
+
+section.payment *{
+    color: white;
+}
+
+/*  @############ TABLE ############@ */
+table.payment{
+    width: 100%;
+    
+    border-radius: 20px;
+}
+
+table.payment thead tr{
+    height: 60px;
+    border-radius: 10px 10px 0 0;
+    background-color: bisque;
+}
+
+table.payment thead tr th{
+    text-align: center;
+}
+
+table.payment tr, td,th{
+    border: 1px solid white;
+    /* border-radius: 20px; */
+}
+
+table.payment tbody tr{
+    height: 150px;
+}
+
+table.payment tbody td.image{
+    border: none;
+}
+
+table.payment tbody td.image img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
